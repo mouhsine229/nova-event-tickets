@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11111a">
+  <meta name="description" content="Réservez vos billets en quelques instants. Paiement mobile simple et billets vérifiables à l'entrée.">
+  <title>NOVA — Vivez l’évènement</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement" id="announcement" hidden></div>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="NOVA, accueil"><span class="brand-mark">N</span><span>NOVA<span class="brand-dot">.</span></span></a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#experience">L’expérience</a><a href="#billets">Billets</a><a href="#exemples">Exemples</a><a href="#infos">Infos pratiques</a>
+    </nav>
+      <a class="header-cta" href="#billets">Réserver <svg class="icon icon-small" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><svg class="icon icon-large" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span><span id="event-kicker">LE RENDEZ-VOUS À NE PAS MANQUER</span></p>
+        <h1 id="event-title">Les nuits<br><em>qui nous</em><br>rassemblent.</h1>
+        <p class="hero-description" id="event-description">Une soirée, des rencontres, des souvenirs qui restent. Retrouvez-nous pour vivre l’évènement autrement.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#billets">Choisir mes billets <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a class="text-link" href="#experience">Découvrir l’évènement <svg class="icon icon-small" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14m7-7-7 7-7-7"/></svg></a></div>
+        <div class="hero-facts"><div><strong id="event-date">DATE À ANNONCER</strong><span>Un moment à partager</span></div><i></i><div><strong id="event-city">COTONOU, BÉNIN</strong><span>Le lieu de rendez-vous</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration lumineuse de l’évènement">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-orbit orbit-three"></div>
+        <div class="art-sun"><div class="sun-core"></div><div class="sun-shine"></div></div>
+        <div class="art-star star-one"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></div><div class="art-star star-two"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6L12 2Z"/></svg></div><div class="art-star star-three"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></div>
+        <div class="art-sticker"><span>ON SE<br>RETROUVE</span><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></b></div>
+        <div class="art-caption"><span>UNE EXPÉRIENCE</span><strong>À VIVRE<br>ENSEMBLE</strong></div>
+        <div class="art-bottom-line"></div>
+      </div>
+      <div class="hero-scroll"><span>FAITES DÉFILER</span><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14m7-7-7 7-7-7"/></svg></div>
+    </section>
+
+    <div class="ticker" aria-label="Ambiance de l’évènement"><div class="ticker-track"><span>ÉNERGIE COLLECTIVE</span><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></b><span>DE BELLES RENCONTRES</span><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></b><span>DES SOUVENIRS À GARDER</span><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></b><span>ÉNERGIE COLLECTIVE</span><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></b><span>DE BELLES RENCONTRES</span><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></b></div></div>
+
+    <section class="experience section-wrap" id="experience">
+      <div class="section-heading"><p class="eyebrow dark-eyebrow">PLUS QU’UNE DATE DANS LE CALENDRIER</p><h2>Le meilleur se passe<br><em>quand on y est.</em></h2></div>
+      <div class="experience-grid">
+        <div class="experience-copy"><p id="experience-description">Venez comme vous êtes, repartez avec une histoire à raconter. Une scène vivante, une ambiance soignée et toute la place pour profiter du moment.</p><a class="underlined-link" href="#infos">Toutes les infos pratiques <svg class="icon icon-small" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+        <div class="experience-card experience-card-lime"><span class="card-index">01 / AMBIANCE</span><div class="mini-spark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></div><h3>Des moments<br>qui rapprochent.</h3><p>La bonne énergie, au bon endroit, avec les bonnes personnes.</p></div>
+        <div class="experience-card experience-card-coral"><span class="card-index">02 / SOUVENIRS</span><div class="mini-spark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6L12 2Z"/></svg></div><h3>Une expérience<br>à votre rythme.</h3><p>Choisissez votre billet et préparez-vous à vivre pleinement.</p></div>
+      </div>
+    </section>
+
+    <section class="tickets-section" id="billets">
+      <div class="section-wrap">
+        <div class="tickets-heading"><div><p class="eyebrow">VOTRE PLACE VOUS ATTEND</p><h2>Choisissez votre<br><em>façon de vivre.</em></h2></div><p class="tickets-note">Sélectionnez une formule, choisissez le nombre de places et réglez en toute simplicité avec MTN MoMo ou Moov Money.</p></div>
+        <div class="ticket-grid" id="ticket-grid" aria-live="polite"></div>
+        <div class="ticket-checkout-row"><button class="button button-lime" id="ticket-checkout" type="button" disabled>Continuer <span id="ticket-checkout-label">— choisissez vos billets</span> <b><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></b></button></div>
+        <div class="ticket-footnote"><svg class="icon icon-small" aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg> Billet numérique envoyé dès confirmation du paiement <span class="footnote-divider">·</span> Paiement sécurisé par CinetPay</div>
+      </div>
+    </section>
+
+    <section class="practical section-wrap" id="infos">
+      <div class="practical-copy"><p class="eyebrow dark-eyebrow">AVANT DE PARTIR</p><h2>Les détails<br><em>qui facilitent.</em></h2><p>Tout ce qu’il faut pour profiter de votre évènement en toute sérénité.</p><a class="button button-dark" id="contact-link" href="mailto:">Une question ? Écrivez-nous <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+      <div class="practical-list">
+        <article><div class="practical-icon"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg></div><div><span>QUAND</span><h3 id="info-date">Date à annoncer</h3><p>Les portes ouvrent avant le début de l’évènement.</p></div></article>
+        <article><div class="practical-icon"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><span>OÙ</span><h3 id="info-venue">Lieu à annoncer</h3><p id="info-city">Cotonou, Bénin</p></div></article>
+        <article><div class="practical-icon"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 0 0 6v4h20v-4a3 3 0 0 1 0-6V5H2v4Z"/><path d="M13 5v2m0 4v2m0 4v2"/></svg></div><div><span>VOTRE BILLET</span><h3>Directement sur votre téléphone</h3><p>Présentez votre billet numérique à l’entrée.</p></div></article>
+      </div>
+    </section>
+
+    <section class="sample-events section-wrap" id="exemples">
+      <div class="sample-events-heading"><div><p class="eyebrow dark-eyebrow">APERÇUS DE DÉMONSTRATION</p><h2>Quelques idées<br><em>de fiches évènement.</em></h2></div><p>Ces exemples montrent comment d’autres évènements peuvent apparaître dans la vitrine. Les noms, dates et tarifs sont fictifs.</p></div>
+      <div class="sample-event-grid">
+        <article class="sample-event-card"><div class="sample-event-cover cover-violet"><span class="sample-cover-label">EXEMPLE · MUSIQUE</span><div class="cover-graphic cover-graphic-one"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="44"/><circle cx="60" cy="60" r="30"/><circle cx="60" cy="60" r="13"/></svg></div><strong>NUITS<br>ÉLECTRIQUES</strong></div><div class="sample-event-info"><p>COTONOU · DATE À CONFIRMER</p><h3>Nuits électriques</h3><div><span>À partir de</span><strong>5 000 FCFA</strong></div></div></article>
+        <article class="sample-event-card"><div class="sample-event-cover cover-orange"><span class="sample-cover-label">EXEMPLE · CULTURE</span><div class="cover-graphic cover-graphic-two"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M60 8 72 42 108 26 88 58 116 78 78 78 76 116 56 84 24 106 40 72 6 52 44 50Z"/></svg></div><strong>FESTIVAL<br>DES COULEURS</strong></div><div class="sample-event-info"><p>PORTO-NOVO · DATE À CONFIRMER</p><h3>Festival des couleurs</h3><div><span>À partir de</span><strong>7 500 FCFA</strong></div></div></article>
+        <article class="sample-event-card"><div class="sample-event-cover cover-green"><span class="sample-cover-label">EXEMPLE · RENCONTRES</span><div class="cover-graphic cover-graphic-three"><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M18 94 60 18l42 76H18Z"/><path d="m36 94 24-43 24 43"/></svg></div><strong>RENCONTRES<br>CRÉATIVES</strong></div><div class="sample-event-info"><p>OUIDAH · DATE À CONFIRMER</p><h3>Rencontres créatives</h3><div><span>À partir de</span><strong>3 000 FCFA</strong></div></div></article>
+      </div>
+    </section>
+
+    <section class="closing-cta"><div class="closing-spark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></svg></div><p class="eyebrow">ON S’Y RETROUVE ?</p><h2>Les bons souvenirs<br>ne se racontent pas.<br><em>Ils se vivent.</em></h2><a class="button button-lime" href="#billets">Je réserve ma place <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#accueil"><span class="brand-mark">N</span><span>NOVA<span class="brand-dot">.</span></span></a><span>Un évènement, mille façons de s’en souvenir.</span><a href="admin.html">Espace organisateur <svg class="icon icon-small" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a><span class="footer-copy">Copyright <span id="year"></span> NOVA</span></footer>
+
+  <div class="modal-backdrop" id="checkout-modal" hidden>
+    <section class="checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <button class="modal-close" id="close-checkout" aria-label="Fermer"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m18 6-12 12M6 6l12 12"/></svg></button>
+      <div class="checkout-progress"><span class="progress-dot active"></span><i></i><span class="progress-dot active"></span><i></i><span class="progress-dot"></span></div>
+      <p class="eyebrow dark-eyebrow">VOTRE RÉSERVATION</p><h2 id="checkout-title">On garde<br><em>votre place.</em></h2>
+      <div class="order-summary" id="order-summary"></div>
+      <form id="checkout-form">
+        <div class="form-heading"><span>01</span><h3>Vos coordonnées</h3></div>
+        <div class="form-grid"><label>Prénom<input name="firstName" autocomplete="given-name" required minlength="2" placeholder="Ex. Aïcha"></label><label>Nom<input name="lastName" autocomplete="family-name" required minlength="2" placeholder="Ex. Kossi"></label></div>
+        <label>Adresse e-mail<input type="email" name="email" autocomplete="email" required placeholder="vous@exemple.com"><small>Votre billet numérique sera envoyé à cette adresse si l’envoi e-mail est activé.</small></label>
+        <label>Numéro mobile money<div class="phone-input"><span>BJ &nbsp;+229</span><input name="phone" autocomplete="tel-national" inputmode="tel" required minlength="8" maxlength="12" placeholder="01 90 00 00 00"></div></label>
+        <div class="form-heading payment-heading"><span>02</span><h3>Votre moyen de paiement</h3></div>
+        <p class="payment-explainer">Choisissez le compte mobile money qui recevra la demande de confirmation.</p>
+        <div class="payment-options">
+          <label class="payment-option"><input type="radio" name="paymentMethod" value="MTN_BJ" required><span class="provider-logo mtn-logo"><b>MTN</b><i>MoMo</i></span><span class="provider-copy"><strong>MTN MoMo</strong><small>Mobile Money</small></span><span class="radio-mark"></span></label>
+          <label class="payment-option"><input type="radio" name="paymentMethod" value="MOOV_BJ" required><span class="provider-logo moov-logo"><b>moov</b></span><span class="provider-copy"><strong>Moov Money</strong><small>Flooz · Mobile Money</small></span><span class="radio-mark"></span></label>
+        </div>
+        <label class="consent-row"><input type="checkbox" name="terms" required><span>J’accepte les <a href="conditions.html" target="_blank" rel="noopener">conditions de vente</a> et j’ai lu la <a href="confidentialite.html" target="_blank" rel="noopener">politique de confidentialité</a>.</span></label>
+        <p class="form-error" id="checkout-error" role="alert" hidden></p>
+        <button class="button button-dark checkout-submit" id="pay-button" type="submit"><span>Continuer vers le paiement</span><b><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></b></button>
+        <p class="secure-note"><svg class="icon icon-small" aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> Paiement traité de façon sécurisée par CinetPay</p>
+      </form>
+      <div class="payment-wait" id="payment-wait" hidden><div class="loader"></div><p class="eyebrow dark-eyebrow">DEMANDE ENVOYÉE</p><h3>Validez sur<br><em>votre téléphone.</em></h3><p>Une demande de paiement a été envoyée au numéro indiqué. Ouvrez la notification MTN MoMo ou Moov Money, vérifiez le montant puis confirmez.</p><div class="wait-total" id="wait-total"></div><button class="button button-outline" id="check-status" type="button">Vérifier le paiement</button><p class="wait-hint" id="wait-hint">Cette page se mettra à jour dès que CinetPay confirmera votre paiement.</p></div>
+      <div class="checkout-success" id="checkout-success" hidden></div>
+    </section>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
